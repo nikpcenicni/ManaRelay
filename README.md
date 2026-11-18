@@ -28,4 +28,8 @@ Every release is listed on the [Releases page](https://github.com/nikpcenicni/Ma
 
 Found a bug or have an idea? [Open an issue](https://github.com/nikpcenicni/ManaRelay-releases/issues/new/choose) and pick a form: bug report, shared game problem, feature request or accessibility barrier. Your app version is under Profile → About.
 
+## Open-source licences
+
+ManaRelay uses open-source software. [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) lists everything in the apps and on the website, with each licence in [licenses/](licenses/).
+
 ManaRelay is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
