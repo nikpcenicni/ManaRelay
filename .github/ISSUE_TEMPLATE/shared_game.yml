@@ -1,0 +1,63 @@
+name: Shared game problem
+description: Trouble hosting, joining, staying connected or keeping devices in step.
+title: "[Shared game] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting this. Shared games depend on every device in them, so please list them all.
+  - type: textarea
+    id: devices
+    attributes:
+      label: Devices in the game
+      description: One line each, with the app version from Profile → About. Mark the host.
+      placeholder: |
+        Host: iPhone 15, iOS 18.1, ManaRelay 1.0 (99)
+        Pixel 8, Android 15, ManaRelay 1.0 (99)
+        Table display: iPad Air, iPadOS 18.1
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: How the devices were connected
+      options:
+        - Same Wi-Fi
+        - No shared Wi-Fi (Bluetooth / Nearby)
+        - Started on Wi-Fi, then lost it
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: joining
+    attributes:
+      label: How players joined
+      options:
+        - From the list of nearby games
+        - Game code
+        - QR code
+        - Not sure
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - 2 players
+        - Commander
+        - Two-Headed Giant
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Which device saw what, and roughly when (for example after a phone was locked, or when the host left).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or recordings
+      description: Ideally from more than one device.

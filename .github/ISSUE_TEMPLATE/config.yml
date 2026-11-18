@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and anything else
+    url: https://nikpcenicni.github.io/ManaRelay-releases/#contact
+    about: Ways to get in touch are on the ManaRelay website.
+  - name: Join the iPhone and iPad beta
+    url: https://testflight.apple.com/join/EXH5bCxh
+    about: The public TestFlight beta.
