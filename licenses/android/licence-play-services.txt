@@ -1,0 +1,5 @@
+Google Play services and ML Kit
+
+The Google Play services and ML Kit libraries in this app are used under the Android Software Development Kit License Agreement (https://developer.android.com/studio/terms) and the ML Kit Terms of Service (https://developers.google.com/ml-kit/terms).
+
+The notices of the components these libraries include are listed under "Google Play services notices" on the previous screen.
