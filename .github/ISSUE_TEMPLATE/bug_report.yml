@@ -1,0 +1,95 @@
+name: Bug report
+description: Something in ManaRelay doesn't work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. One problem per report, please.
+        Problems in a game played across several phones? The **Shared game problem** form asks for the details that help most.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - iPhone or iPad
+        - Android
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Profile → About shows it, for example "1.0 (99)".
+      placeholder: 1.0 (99)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and system version
+      placeholder: iPhone 15, iOS 18.1 / Pixel 8, Android 15
+    validations:
+      required: true
+  - type: input
+    id: install
+    attributes:
+      label: Where you installed it
+      placeholder: TestFlight / APK from this repo / sideloaded IPA
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Life counter and panels
+        - Commander damage or counters
+        - Turns, timer or dice
+        - Game log and Undo
+        - Decks, import or card lookup
+        - Events and drafts
+        - Profile, stats or backup
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start a 4-player Commander game
+        2. Tap …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often
+      options:
+        - Every time
+        - Sometimes
+        - Once
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or a screen recording
+      description: Drag files in here. Please leave out anything personal.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Settings you changed, VoiceOver or TalkBack on, large text, and so on.

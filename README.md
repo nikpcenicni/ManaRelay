@@ -24,4 +24,8 @@ Or download the latest unsigned build: [ManaRelay-ios-unsigned.ipa](https://gith
 
 Every release is listed on the [Releases page](https://github.com/nikpcenicni/ManaRelay-releases/releases).
 
+## Feedback
+
+Found a bug or have an idea? [Open an issue](https://github.com/nikpcenicni/ManaRelay-releases/issues/new/choose) and pick a form: bug report, shared game problem, feature request or accessibility barrier. Your app version is under Profile → About.
+
 ManaRelay is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
